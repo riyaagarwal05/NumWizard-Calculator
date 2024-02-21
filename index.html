@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NumWizard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Inter:wght@300&family=Noticia+Text&family=Orbitron:wght@500&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/MG logo without BG.png" />
+  </head>
+  <body>
+    <hr />
+    <header>
+      <div class="title">NumWizard: A Calculator</div>
+    </header>
+    <div class="main">
+      <div class="left">
+        <div class="answertext">
+          <input
+            class="answerinput"
+            id="answer"
+            type="text"
+            placeholder="Answers"
+          />
+        </div>
+        <div class="keys">
+          <div class="rows">
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button">+</button>
+          </div>
+          <div class="rows">
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button">-</button>
+          </div>
+          <div class="rows">
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button">*</button>
+          </div>
+          <div class="rows">
+            <button class="button">C</button>
+            <button class="button">0</button>
+            <button class="button">=</button>
+            <button class="button">/</button>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <p>Last 3 Answers:</p>
+        <input id="last3" type="text" />
+        <input id="last2" type="text" />
+        <input id="last1" type="text" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
